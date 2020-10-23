@@ -4,6 +4,14 @@ backend:
 
 publish_mode: editorial_workflow
 
+media_library:
+  name: cloudinary
+  output_filename_only: false # false = bring the file name with the entire path
+  config:
+    cloud_name: dlk8dtyso
+    api_key: 722952283134121
+    username: swrogers@gmail.com
+
 media_folder: "source/images" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
 
